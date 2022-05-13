@@ -35,6 +35,10 @@ export const NavContainer = styled.div`
   max-width: 1600px;
 
   z-index: 1;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const NavLogo = styled(LinkRouter)`
@@ -60,26 +64,6 @@ export const NavImg = styled.img`
 
   &:hover {
     transform: scale(0.9);
-  }
-`;
-
-export const MobileIcon = styled.div`
-  display: none;
-
-  @media screen and (max-width: 768px) {
-    display: block;
-
-    position: absolute;
-    top: 0;
-    right: 0;
-
-    transform: translate(-100%, 60%);
-
-    font-size: 1.8rem;
-
-    cursor: pointer;
-
-    color: #5800CC;
   }
 `;
 

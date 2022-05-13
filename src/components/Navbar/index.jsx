@@ -23,10 +23,6 @@ function Navbar() {
           <NavImg src={logo} alt="logo" />
         </NavLogo>
 
-        <MobileIcon>
-          <FaBars />
-        </MobileIcon>
-
         <NavMenu>
           <NavItem>
             <NavLinks
