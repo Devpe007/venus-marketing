@@ -31,5 +31,6 @@ module.exports = {
     'react/jsx-no-constructed-context-values': 'off',
     'no-undef': 'off',
     'react/jsx-filename-extension': 'off',
+    'max-len': 'off',
   },
 };
