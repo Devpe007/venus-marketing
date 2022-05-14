@@ -1,7 +1,9 @@
 import React from 'react';
-import HeroSection from '../components/HeroSection';
 
 import Navbar from '../components/Navbar';
+
+import HeroSection from '../components/HeroSection';
+import ResultsSection from '../components/ResultsSection';
 
 function Home() {
   return (
@@ -9,6 +11,7 @@ function Home() {
       <Navbar />
 
       <HeroSection />
+      <ResultsSection />
     </>
   );
 };
