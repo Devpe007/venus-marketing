@@ -28,5 +28,5 @@ export const AboutUsH1 = styled.h1`
 export const AboutUsP = styled.p`
   font-size: 18px;
 
-  color: #787878;
+  color: #9D9D9D;
 `;
