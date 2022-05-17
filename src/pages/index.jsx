@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
 import ResultsSection from '../components/ResultsSection';
 import AboutUs from '../components/AboutUs';
+import ValuesCompany from '../components/ValuesCompany';
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <HeroSection />
       <ResultsSection />
       <AboutUs />
+      <ValuesCompany />
     </>
   );
 };
